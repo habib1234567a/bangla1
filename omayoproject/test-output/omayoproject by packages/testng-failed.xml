@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [omayoproject by packages]">
+  <test thread-count="5" name="com.runner(failed)">
+    <classes>
+      <class name="com.runner.Multyrunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.runner.Multyrunner -->
+      <class name="com.runner.Alert$Radiorunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.runner.Alert$Radiorunner -->
+      <class name="com.runner.Buttonpop$Radiorunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.runner.Buttonpop$Radiorunner -->
+      <class name="com.runner.Seleniumrunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="writeExtentReport"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.runner.Seleniumrunner -->
+      <class name="com.runner.Radiorunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.runner.Radiorunner -->
+    </classes>
+  </test> <!-- com.runner(failed) -->
+</suite> <!-- Failed suite [omayoproject by packages] -->
